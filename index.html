@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SheRocks@COLLEGE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600;700;800&family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="#" class="logo" aria-label="SheRocks at College home">
+          <span class="logo-script">SheRocks</span><span class="logo-rest">@COLLEGE</span>
+        </a>
+        <button
+          type="button"
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+          aria-label="Open menu"
+        >
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+        </button>
+        <nav id="primary-nav" class="site-nav" aria-label="Primary">
+          <ul class="nav-list">
+            <li><a href="#" class="nav-link nav-link--active">HOME</a></li>
+            <li><a href="#" class="nav-link">ABOUT</a></li>
+            <li class="nav-item nav-item--dropdown">
+              <button
+                type="button"
+                class="nav-link nav-dropdown-btn"
+                aria-expanded="false"
+                aria-controls="work-submenu"
+                id="work-with-me-btn"
+              >
+                WORK WITH ME
+                <svg class="chevron" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true">
+                  <path
+                    d="M2 4l4 4 4-4"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </button>
+              <ul id="work-submenu" class="submenu" hidden>
+                <li><a href="#">1:1 Coaching</a></li>
+                <li><a href="#">Group Programs</a></li>
+                <li><a href="#">Speaking</a></li>
+              </ul>
+            </li>
+            <li><a href="#" class="nav-link">BLOG</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="hero-media">
+          <img
+            src="images/hero-cutout.png"
+            alt="Smiling college woman with curly hair wearing a striped top and colorful beaded necklace"
+            width="481"
+            height="519"
+            loading="eager"
+          />
+        </div>
+        <div class="hero-content">
+          <h1 id="hero-heading" class="hero-title">
+            You're
+            <span class="hero-title-brush"
+              ><span class="hero-title-brush__text">brilliant</span></span
+            >!
+          </h1>
+          <p class="hero-tagline">It's time your grades reflect it.</p>
+          <p class="hero-lead">
+            You are not “bad at school.” You are tired, overwhelmed, and doing your best in a system
+            that was not built for how you think. You deserve support that meets you where you are —
+            and a plan that finally works.
+          </p>
+          <p class="hero-download">
+            Click the button below to download my
+            <span class="hero-highlight"
+              >Anti-Procrastination Guide For The College Woman Who is Brilliant And Tired of
+              Failing</span
+            >.
+          </p>
+          <a href="#" class="cta">Get yours here!</a>
+        </div>
+      </section>
+
+      <section class="bottom-band" aria-label="Founder message">
+        <div class="bottom-inner">
+          <p>
+            I created SheRocks@COLLEGE because I believe
+            <strong>every college woman</strong> deserves to walk into class feeling capable — not
+            behind. If you are ready to stop spinning your wheels and start seeing real progress, you
+            are in the right place.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
